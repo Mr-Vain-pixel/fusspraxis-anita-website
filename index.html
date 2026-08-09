@@ -3,8 +3,101 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Fusspraxis Anita — Podologie SPV · Luzern</title>
-<meta name="description" content="Medizinische Fusspflege & SPA-Fussbehandlungen in der Altstadt Luzern. Seit 2000. Mitglied Schweizerischer Podologen-Verband SPV. Termin: +41 41 240 84 84." />
+<title>Fusspraxis Anita · Podologie in der Altstadt Luzern</title>
+<meta name="description" content="Medizinische Podologie, SPA-Behandlungen und Diabetes-Pflege in der Altstadt Luzern. Seit 2000 an der Kasimir-Pfyffer-Strasse. Termin: +41 41 240 84 84." />
+<meta name="author" content="Anita Hofer-Küng" />
+<link rel="canonical" href="https://www.fusspraxis-anita.ch/" />
+
+<!-- Favicons -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+<!-- Open Graph (for WhatsApp, Facebook, LinkedIn link previews) -->
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="de_CH" />
+<meta property="og:url" content="https://www.fusspraxis-anita.ch/" />
+<meta property="og:title" content="Fusspraxis Anita · Podologie in der Altstadt Luzern" />
+<meta property="og:description" content="Medizinische Podologie, SPA-Behandlungen und Diabetes-Pflege. Seit 2000 an der Kasimir-Pfyffer-Strasse. Termin: +41 41 240 84 84." />
+<meta property="og:image" content="https://www.fusspraxis-anita.ch/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="Fusspraxis Anita" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Fusspraxis Anita · Podologie in der Altstadt Luzern" />
+<meta name="twitter:description" content="Podologie in der Altstadt Luzern. Seit 2000. Termin: +41 41 240 84 84." />
+<meta name="twitter:image" content="https://www.fusspraxis-anita.ch/og-image.jpg" />
+
+<!-- Theme color (browser UI / mobile) -->
+<meta name="theme-color" content="#f5efe4" />
+
+<!-- Schema.org LocalBusiness for Google Maps / local SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Fusspraxis Anita",
+  "alternateName": "Anita's Fusspflege",
+  "description": "Medizinische Podologie, SPA-Fussbehandlungen und Diabetesversorgung in der Altstadt Luzern. Mitglied Schweizerischer Podologen-Verband SPV.",
+  "image": "https://www.fusspraxis-anita.ch/og-image.jpg",
+  "url": "https://www.fusspraxis-anita.ch/",
+  "telephone": "+41412408484",
+  "priceRange": "$$",
+  "founder": {
+    "@type": "Person",
+    "name": "Anita Hofer-Küng",
+    "jobTitle": "Podologin SPV"
+  },
+  "foundingDate": "2000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kasimir-Pfyffer-Strasse 13",
+    "postalCode": "6003",
+    "addressLocality": "Luzern",
+    "addressRegion": "LU",
+    "addressCountry": "CH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 47.0481,
+    "longitude": 8.3037
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday","Wednesday","Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "12:00",
+      "description": "An zwei Samstagen im Monat"
+    }
+  ],
+  "medicalSpecialty": ["Podiatry"],
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Schweizerischer Podologen-Verband SPV",
+    "url": "https://podologie.ch"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Luzern"
+  }
+}
+</script>
 
 <link rel="preload" href="fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -803,35 +896,21 @@
     margin-top:0;
     background:var(--cream);
     color:var(--ink);
-    padding:36px;
     aspect-ratio:1/1;
-    display:flex;flex-direction:column;justify-content:space-between;
     position:relative;
     overflow:hidden;
   }
-  .map-card .pin{
-    position:absolute;
-    inset:0;
-    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><defs><pattern id='grid' width='40' height='40' patternUnits='userSpaceOnUse'><path d='M 40 0 L 0 0 0 40' fill='none' stroke='%23d8cdb5' stroke-width='0.5'/></pattern></defs><rect width='100%25' height='100%25' fill='%23faf6ec'/><rect width='100%25' height='100%25' fill='url(%23grid)' opacity='0.4'/><g opacity='0.35'><rect x='70' y='18' width='42' height='32' fill='%23d8cdb5' rx='2'/><rect x='120' y='22' width='28' height='28' fill='%23d8cdb5' rx='2'/><rect x='158' y='18' width='42' height='32' fill='%23d8cdb5' rx='2'/><rect x='210' y='22' width='38' height='30' fill='%23d8cdb5' rx='2'/><rect x='258' y='18' width='48' height='34' fill='%23d8cdb5' rx='2'/><rect x='316' y='22' width='32' height='28' fill='%23d8cdb5' rx='2'/></g><path d='M 0 70 Q 100 58 200 72 Q 300 88 400 78 L 400 115 Q 300 125 200 110 Q 100 96 0 108 Z' fill='%23c6a87a' opacity='0.25'/><path d='M 0 70 Q 100 58 200 72 Q 300 88 400 78' fill='none' stroke='%23a78550' stroke-width='1.6' opacity='0.85'/><path d='M 0 108 Q 100 96 200 110 Q 300 125 400 115' fill='none' stroke='%23a78550' stroke-width='1.1' opacity='0.6'/><line x1='245' y1='75' x2='248' y2='118' stroke='%23a78550' stroke-width='1.6' opacity='0.7'/><text x='328' y='98' font-family='Fraunces, serif' font-style='italic' font-size='14' fill='%23a78550' opacity='0.95'>Reuss</text><g stroke='%23d8cdb5' stroke-width='0.8' fill='none' opacity='0.55'><line x1='0' y1='160' x2='270' y2='158'/><line x1='0' y1='200' x2='260' y2='195'/><line x1='0' y1='290' x2='180' y2='285'/><line x1='0' y1='330' x2='160' y2='325'/><line x1='30' y1='130' x2='40' y2='400'/><line x1='75' y1='130' x2='85' y2='400'/><line x1='185' y1='150' x2='198' y2='370'/></g><path d='M 0 248 L 250 244' stroke='%23a78550' stroke-width='2.2' opacity='0.8'/><text x='10' y='238' font-family='Fraunces, serif' font-style='italic' font-size='10' fill='%23282d41' opacity='0.9'>Kasimir-Pfyffer-Strasse</text><path d='M 305 220 L 188 372' stroke='%23a78550' stroke-width='2.2' opacity='0.8'/><text transform='translate(264 298) rotate(53)' font-family='Fraunces, serif' font-style='italic' font-size='11' fill='%23282d41' opacity='0.9'>Pilatusstrasse</text><circle cx='188' cy='372' r='3' fill='%23a78550' opacity='0.8'/><path d='M 188 372 L 178 400' stroke='%23a78550' stroke-width='2.2' opacity='0.8'/><text x='90' y='393' font-family='Fraunces, serif' font-style='italic' font-size='10' fill='%23282d41' opacity='0.9'>Obergrundstrasse</text><g transform='translate(340 215)'><rect x='-34' y='-18' width='68' height='36' fill='%23faf6ec' stroke='%23282d41' stroke-width='1.4' rx='2'/><text y='5' font-family='Fraunces, serif' font-style='italic' font-size='12' fill='%23282d41' text-anchor='middle'>Bahnhof</text></g><g stroke='%23282d41' stroke-width='0.6' opacity='0.45'><line x1='314' y1='235' x2='322' y2='400'/><line x1='322' y1='235' x2='332' y2='400'/><line x1='330' y1='235' x2='342' y2='400'/><line x1='338' y1='235' x2='352' y2='400'/><line x1='346' y1='235' x2='362' y2='400'/><line x1='354' y1='235' x2='372' y2='400'/><line x1='362' y1='235' x2='382' y2='400'/></g></svg>");
-    background-size:cover;
-    opacity:.92;
+  .map-card .map-image{
+    position:absolute;inset:0;
+    width:100%;height:100%;
+    object-fit:cover;
+    display:block;
   }
-  .map-card .pin-marker{
-    position:absolute;top:62%;left:32%;
-    transform:translate(-50%,-100%);
-    width:36px;height:36px;
-    background:var(--forest-deep);border-radius:50% 50% 50% 0;
-    transform-origin:bottom left;
-    rotate:-45deg;
-    box-shadow:0 8px 16px rgba(40,45,65,.3);
+  .map-card-content{
+    position:relative;z-index:2;
+    padding:36px;
+    background:linear-gradient(to bottom, rgba(245,239,228,.9) 0%, rgba(245,239,228,.6) 60%, rgba(245,239,228,0) 100%);
   }
-  .map-card .pin-marker::after{
-    content:"";position:absolute;
-    top:10px;left:10px;
-    width:16px;height:16px;
-    background:var(--brass);border-radius:50%;
-  }
-  .map-card-content{position:relative;z-index:2}
   .map-card-content .label{
     font-size:11px;letter-spacing:.22em;text-transform:uppercase;
     color:var(--brass);margin-bottom:8px;
@@ -843,8 +922,9 @@
     font-size:14px;color:var(--ink-soft);
   }
   .map-card-bottom{
-    position:relative;z-index:2;
-    align-self:flex-end;
+    position:absolute;
+    bottom:24px;right:24px;
+    z-index:2;
     background:var(--cream);
     padding:14px 18px;
     border:1px solid var(--line);
@@ -852,11 +932,17 @@
     font-style:italic;
     font-size:14px;
     color:var(--forest-deep);
+    text-decoration:none;
+    transition:background .2s ease, border-color .2s ease;
+  }
+  .map-card-bottom:hover{
+    background:var(--paper);
+    border-color:var(--brass);
   }
 
   @media (max-width:900px){
     .contact-grid{grid-template-columns:1fr;gap:50px}
-    .map-card{aspect-ratio:4/3}
+    .map-card{aspect-ratio:1/1;max-width:480px;margin:0 auto}
     .info-block{grid-template-columns:1fr;gap:6px}
   }
 
@@ -958,7 +1044,7 @@
       <span class="desktop-only">Kasimir-Pfyffer-Strasse 13 · 6003 Luzern</span>
     </div>
     <div class="topstrip-right">
-      <span class="desktop-only">Mo–Fr · Termin nach Vereinbarung</span>
+      <span class="desktop-only">Termin nach Vereinbarung</span>
       <a href="tel:+41412408484">+41&nbsp;41&nbsp;240&nbsp;84&nbsp;84</a>
     </div>
   </div>
@@ -1019,10 +1105,10 @@
   <div class="container">
     <div class="hero-grid">
       <div>
-        <div class="hero-eyebrow">Medizinische Podologie in Luzern</div>
-        <h1>Wenn jeder Schritt<br/><em>wieder Freude</em> macht.</h1>
+        <div class="hero-eyebrow">Podologie · Luzern</div>
+        <h1>Fusspflege in der<br/>Altstadt Luzern.</h1>
         <p class="hero-lead">
-          Medizinische Fusspflege auf höchstem Niveau — kombiniert mit der wohltuenden Ruhe einer SPA-Behandlung. In drei eleganten Behandlungsräumen mitten in der Altstadt Luzern.
+          Medizinische Podologie, SPA-Behandlungen und Diabetes-Pflege. Seit 2000 an der Kasimir-Pfyffer-Strasse. Termin nach telefonischer Vereinbarung.
         </p>
         <div class="hero-cta">
           <a class="btn-call" href="tel:+41412408484">
@@ -1036,10 +1122,10 @@
         </div>
       </div>
       <div class="hero-image-wrap">
-        <img class="hero-image" src="bilder/hero.jpg" alt="Entspannende Fussbehandlung"/>
+        <img class="hero-image" src="bilder/hero.jpg" alt="Barfuss auf einem Holzsteg, Nahaufnahme"/>
         <div class="hero-tag">
-          <div class="hero-tag-num">25+</div>
-          <div class="hero-tag-text">Jahre Erfahrung in medizinischer Fusspflege im Herzen von Luzern.</div>
+          <div class="hero-tag-num">2000</div>
+          <div class="hero-tag-text">An derselben Adresse in der Altstadt Luzern.</div>
         </div>
       </div>
     </div>
@@ -1062,19 +1148,19 @@
             <path d="M62.58,96.23l.2,9.14c-.6,2.39,1.09,6.37-2.19,7.46a3.52,3.52,0,0,1-3.28-.6c-1.49-1.88-1.1-4.67-1.1-7,.2-3.09-.1-6.27.2-9.45A18.23,18.23,0,0,1,62.58,96.23Z"/>
           </svg>
         </span>
-        <div class="trust-label">Mitglied Schweiz.<br/>Podologen-Verband</div>
+        <div class="trust-label">Mitglied Podologen-<br/>Verband Schweiz</div>
       </div>
       <div class="trust-item">
         <div class="trust-num">3</div>
-        <div class="trust-label">Behandlungs­räume<br/>in der Altstadt</div>
+        <div class="trust-label">Behandlungs­räume</div>
       </div>
       <div class="trust-item">
-        <div class="trust-num">2000</div>
-        <div class="trust-label">Praxisgründung<br/>durch Anita Küng</div>
+        <div class="trust-num">25</div>
+        <div class="trust-label">Jahre<br/>in Luzern</div>
       </div>
       <div class="trust-item">
         <div class="trust-num">EFZ</div>
-        <div class="trust-label">Diplomierte<br/>Podologinnen</div>
+        <div class="trust-label">Eidgenössisches<br/>Fähigkeitszeugnis</div>
       </div>
     </div>
   </div>
@@ -1085,35 +1171,35 @@
   <div class="container">
     <div class="section-head reveal">
       <div>
-        <span class="section-num">— 01 / Angebot</span>
-        <h2 class="section-title">Behandlungen,<br/>die <em>spürbar</em> guttun.</h2>
+        <span class="section-num">Angebot</span>
+        <h2 class="section-title">Unser Angebot</h2>
       </div>
       <p class="section-intro">
-        Drei Säulen unserer Arbeit — medizinische Präzision, wohltuende SPA-Rituale und individuelle Betreuung. Für jede Behandlung nehmen wir uns die Zeit, die Ihre Füsse verdienen.
+        Drei Bereiche. Für jede Behandlung nehmen wir uns 45 bis 60 Minuten Zeit.
+        <!-- ANITA PRÜFEN: Zeitangabe 45-60 Min. korrekt? -->
       </p>
     </div>
 
     <div class="services-grid reveal">
       <article class="service">
-        <div class="service-num">— 01</div>
+        
         <svg class="service-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
           <path d="M32 10l-14 5v15c0 9 6 16 14 22 8-6 14-13 14-22V15z"/>
           <path d="M32 24v14M25 31h14" stroke-width="1.8"/>
         </svg>
         <h3>Medizinische<br/>Podologie</h3>
-        <p>Fachgerechte Behandlung bei Beschwerden — präzise, hygienisch und mit modernster Ausstattung nach SPV-Standard.</p>
+        <p>Behandlung von Beschwerden nach SPV-Standard.</p>
         <ul>
           <li>Eingewachsene Nägel</li>
-          <li>Verdickte Nägel & Nagelpilz</li>
-          <li>Hornhaut & Schwielen</li>
-          <li>Hühneraugen entfernen</li>
-          <li>Druckstellen lindern</li>
-          <li>Künstliche Nägel bei Trauma</li>
+          <li>Nagelpilz und verdickte Nägel</li>
+          <li>Hornhaut und Hühneraugen</li>
+          <li>Druckstellen und Schwielen</li>
+          <li>Nagelprothesen bei Trauma</li>
         </ul>
       </article>
 
       <article class="service">
-        <div class="service-num">— 02</div>
+        
         <svg class="service-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
           <path d="M32 14c-2 4-2 8 0 14 2-6 2-10 0-14z"/>
           <path d="M32 28c-6-2-10-4-14-2 3 5 8 7 14 6"/>
@@ -1122,32 +1208,30 @@
           <path d="M20 44c2 1.5 5 1.5 7 0s5-1.5 7 0 5 1.5 7 0" opacity="0.4"/>
         </svg>
         <h3>SPA-Fuss­behandlungen</h3>
-        <p>Wellness für Körper und Seele. Unsere SPA-Rituale verbinden hochwertige Pflege mit aromatischer Tiefen­entspannung.</p>
+        <p>Pflege mit Aromaölen, Kräuterpäckli und warmen Steinen.</p>
         <ul>
           <li>Aromaöl-Päckli</li>
-          <li>Hibiscus- & Orchidee-Päckli</li>
-          <li>Arven-Honig Fuss-Massage</li>
-          <li>Himalaya Hot Salt Stone</li>
-          <li>Hot Stone Fuss-Massage</li>
-          <li>Fuss- & Unterschenkel-Massage</li>
+          <li>Hibiscus- und Orchidee-Päckli</li>
+          <li>Arven-Honig Fussmassage</li>
+          <li>Himalaya Salt Stone</li>
+          <li>Hot Stone Massage</li>
+          <li>Fuss- und Unterschenkelmassage</li>
         </ul>
       </article>
 
       <article class="service">
-        <div class="service-num">— 03</div>
+        
         <svg class="service-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
           <path d="M32 48s-14-8-14-20a8 8 0 0 1 14-5 8 8 0 0 1 14 5c0 12-14 20-14 20z"/>
           <path d="M19 30h5l3-5 4 10 3-5h11" stroke-width="1.6"/>
         </svg>
         <h3>Diabetes­versorgung</h3>
-        <p>Spezialisierte podologische Betreuung für Diabetikerinnen und Diabetiker — mit absoluter Sorgfalt und nach den geltenden medizinischen Richtlinien.</p>
+        <p>Podologische Betreuung bei Diabetes. Anita und Barbara haben die Diabetesseminare I und II abgeschlossen.</p>
         <ul>
-          <li>Sanfte, sichere Pflege</li>
-          <li>Frühzeitige Risiko­erkennung</li>
+          <li>Regelmässige Kontrollen</li>
+          <li>Frühzeitige Risikoerkennung</li>
           <li>Beratung zur Selbstpflege</li>
-          <li>Zertifizierte Hygiene­standards</li>
-          <li>Diabetesseminar I & II</li>
-          <li>Individuelle Verlaufs­kontrolle</li>
+          <li>Wundversorgung in Absprache mit Ihrem Arzt</li>
         </ul>
       </article>
     </div>
@@ -1158,9 +1242,10 @@
 <section class="quote-band reveal">
   <div class="container">
     <blockquote>
-      Gesunde Füsse tragen ein Leben lang. Wir schenken ihnen die Aufmerksamkeit, die sie verdienen — fachlich kompetent und menschlich zugewandt.
+      Regelmässige Fusspflege beugt Beschwerden vor. Wir empfehlen einen Termin alle sechs bis acht Wochen.
     </blockquote>
-    <div class="quote-attr">Anita Küng — Praxisinhaberin, Podologin SPV</div>
+    <div class="quote-attr">Empfehlung der Praxis</div>
+    <!-- ANITA PRÜFEN: Zitat-Sektion sinnvoll? Alternative: ganze Sektion entfernen, wenn nicht durch echten O-Ton von Anita ersetzt. Empfohlener Turnus (6-8 Wochen) prüfen. -->
   </div>
 </section>
 
@@ -1169,11 +1254,11 @@
   <div class="container">
     <div class="section-head reveal">
       <div>
-        <span class="section-num">— 02 / Unser Team</span>
-        <h2 class="section-title">Sechs Hände,<br/>eine <em>Haltung</em>.</h2>
+        <span class="section-num">Team</span>
+        <h2 class="section-title">Anita, Barbara<br/>und Doris.</h2>
       </div>
       <p class="section-intro">
-        Diplomierte Podologinnen mit jahrelanger Erfahrung und kontinuierlicher Weiterbildung. Wir sind eingespielt, einfühlsam — und mit jeder Faser auf das Wohl Ihrer Füsse fokussiert.
+        Drei Podologinnen. Anita führt die Praxis seit 25 Jahren, Barbara arbeitet seit 2012 im Team, Doris ist in der Ausbildung.
       </p>
     </div>
 
@@ -1185,7 +1270,7 @@
         <div class="member-name">Anita Küng</div>
         <div class="member-role">Praxisinhaberin · Podologin SPV</div>
         <p class="member-bio">
-          Praxisinhaberin seit 2000. Weiterbildungen als Berufsbildnerin, Diabetes­seminar I & II sowie Hygieneseminar. Anita prägt die Praxis mit Erfahrung und persönlicher Note.
+          Praxisinhaberin seit 2000. Berufsbildnerin, Diabetesseminare I und II, Hygieneseminar.
         </p>
       </div>
 
@@ -1196,7 +1281,7 @@
         <div class="member-name">Barbara Reust</div>
         <div class="member-role">Podologin EFZ</div>
         <p class="member-bio">
-          Diplomabschluss 2012 als Podologin EFZ. Diabetes­seminar, Berufsbildnerin und dipl. Craniosacral-Therapeutin. Zusatzausbildung als psychosoziale Beraterin.
+          Podologin EFZ seit 2012. Zusätzlich diplomierte Craniosacral-Therapeutin und psychosoziale Beraterin.
         </p>
       </div>
 
@@ -1207,7 +1292,7 @@
         <div class="member-name">Doris Kathriner</div>
         <div class="member-role">Podologin EFZ in Ausbildung</div>
         <p class="member-bio">
-          Im 2. Ausbildungsjahr zur Podologin EFZ. Bringt frischen Blick und grosse Sorgfalt in jede Behandlung — bestens betreut durch unser eingespieltes Team.
+          Im zweiten Ausbildungsjahr zur Podologin EFZ. Behandelt eigenständig, immer unter Aufsicht von Anita oder Barbara.
         </p>
       </div>
     </div>
@@ -1219,25 +1304,26 @@
   <div class="container">
     <div class="practice-grid">
       <div class="practice-text reveal">
-        <span class="section-num">— 03 / Die Praxis</span>
-        <h2>Mitten in der<br/><em>Altstadt Luzern.</em></h2>
+        <span class="section-num">Die Praxis</span>
+        <h2>Kasimir-Pfyffer-<br/>Strasse 13.</h2>
         <p>
-          Unsere Praxis liegt an der Kasimir-Pfyffer-Strasse — wenige Schritte vom See entfernt, in der wunderschönen Altstadt von Luzern. Drei Behandlungs­räume bieten Ruhe, Diskretion und modernsten Komfort.
+          Die Praxis liegt zwischen Bahnhof und See, in der Altstadt Luzern. Drei getrennte Behandlungsräume, moderne Ausstattung, Hygiene nach SPV-Norm.
         </p>
         <p>
-          Die Räume sind mit hochwertigen, regelmässig gewarteten Geräten ausgestattet. Wir arbeiten nach den geltenden Hygiene­normen des Schweizerischen Podologen-Verbandes.
+          Parkplätze finden Sie im Parkhaus Altstadt (2 Minuten). Der Zugang ist ebenerdig.
+          <!-- ANITA PRÜFEN: Welches Parkhaus stimmt? Ist der Zugang wirklich ebenerdig / barrierefrei? -->
         </p>
         <div class="practice-features">
-          <div><span>01</span><strong>Drei separate Behandlungsräume</strong></div>
-          <div><span>02</span><strong>Modernste Geräte & Hygiene-Standards SPV</strong></div>
-          <div><span>03</span><strong>Termin nach telefonischer Vereinbarung</strong></div>
-          <div><span>04</span><strong>Zentrale Lage — gut erreichbar zu Fuss & ÖV</strong></div>
+          <div><span>·</span><strong>Termin nach telefonischer Vereinbarung</strong></div>
+          <div><span>·</span><strong>Zahlung: Bargeld, TWINT, Rechnung</strong></div>
+          <!-- ANITA PRÜFEN: Welche Zahlungsarten stimmen? Karte auch? -->
+          <div><span>·</span><strong>Barrierefreier Zugang</strong></div>
         </div>
       </div>
       <div class="practice-gallery reveal">
-        <img class="g1" src="bilder/praxis-eingang.jpg" alt="Behandlungsraum"/>
-        <img class="g2" src="bilder/praxis-detail.jpg" alt="Spa Detail"/>
-        <img class="g3" src="bilder/praxis-behandlungsraum.jpg" alt="Wellness Atmosphäre"/>
+        <img class="g1" src="bilder/praxis-eingang.jpg" alt="Eingang der Praxis"/>
+        <img class="g2" src="bilder/praxis-detail.jpg" alt="Detail im Wartebereich"/>
+        <img class="g3" src="bilder/praxis-behandlungsraum.jpg" alt="Behandlungsraum"/>
       </div>
     </div>
   </div>
@@ -1248,20 +1334,20 @@
   <div class="container">
     <div class="section-head reveal" style="border-bottom-color:rgba(198,168,122,.25)">
       <div>
-        <span class="section-num contact-eyebrow">— 04 / Termin</span>
-        <h2 class="section-title">Ein Anruf<br/>genügt.</h2>
+        <span class="section-num contact-eyebrow">Termin</span>
+        <h2 class="section-title">Ein Anruf reicht.</h2>
       </div>
       <p class="section-intro" style="color:var(--cream-soft);opacity:.85">
-        Wir nehmen uns persönlich Zeit, klären Ihr Anliegen und finden gemeinsam einen passenden Termin. Wir freuen uns auf Ihren Anruf.
+        Wir klären Ihr Anliegen kurz am Telefon und finden einen passenden Termin. Neue Klientinnen und Klienten sind willkommen.
       </p>
     </div>
 
     <div class="contact-grid">
       <div class="reveal">
         <div class="contact-phone-block">
-          <div class="label">Telefon — Termin vereinbaren</div>
+          <div class="label">Telefon</div>
           <a class="num" href="tel:+41412408484">+41&nbsp;41&nbsp;240&nbsp;84&nbsp;84</a>
-          <p class="helper">Telefonische Erreichbarkeit während der Öffnungs­zeiten. Falls wir gerade in einer Behandlung sind, rufen wir gerne zurück.</p>
+          <p class="helper">Erreichbar während der Öffnungszeiten. Wenn wir gerade behandeln, rufen wir zurück.</p>
         </div>
 
         <div class="info-block">
@@ -1278,25 +1364,45 @@
             <div class="hours-table">
               <div class="day">Montag</div>
               <div class="time">09:00 – 13:00 · 14:00 – 18:00</div>
-              <div class="day">Di — Fr</div>
+              <div class="day">Di – Fr</div>
               <div class="time">08:00 – 13:00 · 14:00 – 18:00</div>
               <div class="day">Donnerstag</div>
               <div class="time">Nur auf Voranmeldung</div>
               <div class="day">Samstag</div>
               <div class="time">08:00 – 12:00</div>
             </div>
-            <p class="hours-note">— an zwei Samstagen im Monat</p>
+            <p class="hours-note">Samstag am 1. und 3. im Monat.</p>
+            <!-- ANITA PRÜFEN: Welche Samstage genau? -->
           </div>
         </div>
       </div>
 
       <div class="map-card reveal">
-        <div class="pin"></div>
-        <div class="pin-marker"></div>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="bilder/karte-luzern-800.webp 800w,
+                    bilder/karte-luzern-1200.webp 1200w,
+                    bilder/karte-luzern-1600.webp 1600w,
+                    bilder/karte-luzern-2400.webp 2400w"
+            sizes="(max-width: 900px) min(480px, 100vw), 480px">
+          <img
+            class="map-image"
+            src="bilder/karte-luzern-1200.jpg"
+            srcset="bilder/karte-luzern-800.jpg 800w,
+                    bilder/karte-luzern-1200.jpg 1200w,
+                    bilder/karte-luzern-1600.jpg 1600w,
+                    bilder/karte-luzern-2400.jpg 2400w"
+            sizes="(max-width: 900px) min(480px, 100vw), 480px"
+            alt="Karte mit Lage der Fusspraxis Anita: Kasimir-Pfyffer-Strasse 13, 15 Gehminuten vom Bahnhof Luzern"
+            loading="lazy"
+            decoding="async"
+            width="2400" height="2400">
+        </picture>
         <div class="map-card-content">
-          <div class="label">Sie finden uns</div>
-          <h3>Altstadt Luzern</h3>
-          <p>15 Gehminuten vom Bahnhof</p>
+          <div class="label">Anfahrt</div>
+          <h3>Kasimir-Pfyffer-Strasse 13</h3>
+          <p>Bahnhof: 15 Min. zu Fuss</p>
         </div>
         <a class="map-card-bottom" href="https://maps.google.com/?q=Kasimir-Pfyffer-Strasse+13+6003+Luzern" target="_blank" rel="noopener">
           → Route in Google Maps öffnen
