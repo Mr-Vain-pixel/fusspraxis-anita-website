@@ -249,22 +249,6 @@
   .brand{
     display:flex;align-items:center;gap:14px;
   }
-  .brand-mark{
-    width:54px;height:44px;border-radius:24px;
-    border:1px solid var(--brass);
-    display:grid;place-items:center;
-    background:var(--paper);
-    flex-shrink:0;
-  }
-  .brand-mark svg{
-    width:42px;height:auto;display:block;
-  }
-  .brand-mark .brand-letter{
-    font-family:var(--f-display);
-    font-style:italic;
-    font-weight:400;
-    fill:var(--brass);
-  }
   .brand-name{
     font-family:var(--f-display);
     font-size:22px;
@@ -413,8 +397,6 @@
     .menu-toggle{display:block}
     .nav-cta .btn-call{padding:11px 16px;font-size:11px}
     .brand-name{font-size:18px}
-    .brand-mark{width:46px;height:38px;border-radius:20px}
-    .brand-mark svg{width:36px}
   }
   @media (max-width:480px){
     .nav-cta .btn-call .btn-label{display:none}
@@ -506,21 +488,6 @@
     font-size:13px;line-height:1.5;color:var(--ink-soft);
   }
 
-  /* decorative deco line corner */
-  .hero::before{
-    content:"";position:absolute;
-    top:30px;right:var(--gutter);
-    width:1px;height:60px;background:var(--brass);
-    opacity:.5;
-  }
-  .hero::after{
-    content:"";position:absolute;
-    top:90px;right:calc(var(--gutter) - 5px);
-    width:11px;height:11px;
-    border:1px solid var(--brass);transform:rotate(45deg);
-    opacity:.5;
-  }
-
   @media (max-width:900px){
     .hero{padding:48px 0 70px}
     .hero-grid{grid-template-columns:1fr;gap:50px}
@@ -580,10 +547,6 @@
     padding-bottom:30px;
     border-bottom:1px solid var(--line);
   }
-  .section-eyebrow{
-    font-size:12px;letter-spacing:.24em;text-transform:uppercase;
-    color:var(--brass);
-  }
   .section-num{
     font-family:var(--f-display);
     font-style:italic;
@@ -623,13 +586,6 @@
     transition:background .35s ease;
   }
   .service:hover{background:var(--paper)}
-  .service-num{
-    font-family:var(--f-display);
-    font-style:italic;
-    font-size:14px;
-    color:var(--brass);
-    margin-bottom:auto;
-  }
   .service-icon{
     width:56px;height:56px;
     margin:0 0 28px;
@@ -964,8 +920,6 @@
   .foot-brand{
     display:flex;align-items:center;gap:14px;
   }
-  .foot-brand .brand-mark{background:transparent;border-color:var(--brass-soft)}
-  .foot-brand .brand-mark .brand-letter{fill:var(--brass-soft)}
   .foot-brand .brand-name{color:var(--cream)}
   .foot-spv{
     text-align:center;
@@ -1044,7 +998,7 @@
       <span class="desktop-only">Kasimir-Pfyffer-Strasse 13 · 6003 Luzern</span>
     </div>
     <div class="topstrip-right">
-      <span class="desktop-only">Termin nach Vereinbarung</span>
+      <span class="desktop-only">Mo–Fr Termine · Sa 8–12 Uhr</span>
       <a href="tel:+41412408484">+41&nbsp;41&nbsp;240&nbsp;84&nbsp;84</a>
     </div>
   </div>
@@ -1054,12 +1008,6 @@
 <header class="nav">
   <div class="nav-inner">
     <a class="brand" href="#">
-      <span class="brand-mark">
-        <svg viewBox="0 0 54 36" xmlns="http://www.w3.org/2000/svg" aria-label="FA – Fusspraxis Anita">
-          <text class="brand-letter" x="15" y="27" font-size="26" text-anchor="middle">F</text>
-          <text class="brand-letter" x="38" y="27" font-size="26" text-anchor="middle">A</text>
-        </svg>
-      </span>
       <span>
         <span class="brand-name">Fusspraxis Anita</span>
         <div class="brand-sub">Podologie SPV · Luzern</div>
@@ -1105,8 +1053,8 @@
   <div class="container">
     <div class="hero-grid">
       <div>
-        <div class="hero-eyebrow">Podologie · Luzern</div>
-        <h1>Fusspflege in der<br/>Altstadt Luzern.</h1>
+        <div class="hero-eyebrow">Praxis für Podologie</div>
+        <h1>Ihre Fusspraxis<br/>in Luzern.</h1>
         <p class="hero-lead">
           Medizinische Podologie, SPA-Behandlungen und Diabetes-Pflege. Seit 2000 an der Kasimir-Pfyffer-Strasse. Termin nach telefonischer Vereinbarung.
         </p>
@@ -1125,7 +1073,7 @@
         <img class="hero-image" src="bilder/hero.jpg" alt="Barfuss auf einem Holzsteg, Nahaufnahme"/>
         <div class="hero-tag">
           <div class="hero-tag-num">2000</div>
-          <div class="hero-tag-text">An derselben Adresse in der Altstadt Luzern.</div>
+          <div class="hero-tag-text">Gegründet. An der Kasimir-Pfyffer-Strasse.</div>
         </div>
       </div>
     </div>
@@ -1417,12 +1365,6 @@
   <div class="container">
     <div class="foot">
       <div class="foot-brand">
-        <span class="brand-mark">
-          <svg viewBox="0 0 54 36" xmlns="http://www.w3.org/2000/svg" aria-label="FA – Fusspraxis Anita">
-            <text class="brand-letter" x="15" y="27" font-size="26" text-anchor="middle">F</text>
-            <text class="brand-letter" x="38" y="27" font-size="26" text-anchor="middle">A</text>
-          </svg>
-        </span>
         <span>
           <span class="brand-name">Fusspraxis Anita</span>
           <div class="brand-sub" style="color:var(--brass-soft)">Podologie · Luzern</div>
