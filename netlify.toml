@@ -40,3 +40,20 @@
 
 [build.processing.html]
   pretty_urls = true
+
+# ---------- WEITERLEITUNGEN ----------
+# SEO-Erhalt: Alte URL /bedeutung-der-podologie/ (mit Trailing-Slash)
+# der bestehenden WordPress-Seite auf neue Seite umleiten.
+# 301 = permanent, damit Google das Ranking übernimmt.
+
+[[redirects]]
+  from = "/bedeutung-der-podologie/"
+  to = "/bedeutung-der-podologie.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bedeutung-der-podologie"
+  to = "/bedeutung-der-podologie.html"
+  status = 301
+  force = true
