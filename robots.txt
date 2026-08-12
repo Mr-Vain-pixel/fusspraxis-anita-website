@@ -1,0 +1,8 @@
+# robots.txt für www.fusspraxis-anita.ch
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Verweis auf die Sitemap
+Sitemap: https://www.fusspraxis-anita.ch/sitemap.xml

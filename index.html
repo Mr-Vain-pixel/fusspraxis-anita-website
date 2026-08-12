@@ -9,9 +9,9 @@
 <link rel="canonical" href="https://www.fusspraxis-anita.ch/" />
 
 <!-- Favicons -->
-<link rel="icon" href="favicon.svg" type="image/svg+xml" />
-<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
-<link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png" />
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
 <!-- Open Graph (for WhatsApp, Facebook, LinkedIn link previews) -->
@@ -987,6 +987,89 @@
   }
 
 </style>
+
+<!-- Strukturierte Daten (JSON-LD) für Suchmaschinen und LLMs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Fusspraxis Anita",
+  "description": "Podologie-Praxis in der Altstadt Luzern. Medizinische Podologie, SPA-Fussbehandlungen und Diabetesversorgung. Mitglied Schweizerischer Podologen-Verband SPV.",
+  "url": "https://www.fusspraxis-anita.ch",
+  "telephone": "+41412408484",
+  "foundingDate": "2000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kasimir-Pfyffer-Strasse 13",
+    "postalCode": "6003",
+    "addressLocality": "Luzern",
+    "addressRegion": "LU",
+    "addressCountry": "CH"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "description": "Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "12:00"
+    }
+  ],
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Schweizerischer Podologen-Verband SPV",
+    "url": "https://podologie.ch"
+  },
+  "employee": [
+    {
+      "@type": "Person",
+      "name": "Anita Küng",
+      "jobTitle": "Praxisinhaberin, Podologin SPV"
+    },
+    {
+      "@type": "Person",
+      "name": "Barbara Reust",
+      "jobTitle": "Podologin EFZ"
+    },
+    {
+      "@type": "Person",
+      "name": "Doris Kathriner",
+      "jobTitle": "Podologin EFZ in Ausbildung"
+    }
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Medizinische Podologie",
+        "description": "Behandlung von Beschwerden nach SPV-Standard: eingewachsene Nägel, Nagelpilz, Hornhaut, Hühneraugen, Druckstellen, Nagelprothesen."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "SPA-Fussbehandlungen",
+        "description": "Pflege mit Aromaölen, Kräuterpäckli und warmen Steinen."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Diabetesversorgung",
+        "description": "Auf podologische Betreuung bei Diabetes spezialisiert. Diabetesseminare I und II abgeschlossen."
+      }
+    }
+  ]
+}
+</script>
+
 </head>
 
 <body>
