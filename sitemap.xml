@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Startseite - höchste Priorität -->
+  <url>
+    <loc>https://www.fusspraxis-anita.ch/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Bedeutung der Podologie - fachliche Info-Seite mit SEO-Ranking -->
+  <url>
+    <loc>https://www.fusspraxis-anita.ch/bedeutung-der-podologie</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Impressum - niedrige Priorität, aber sichtbar -->
+  <url>
+    <loc>https://www.fusspraxis-anita.ch/impressum</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
