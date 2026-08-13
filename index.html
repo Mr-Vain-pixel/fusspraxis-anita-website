@@ -4,9 +4,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Fusspraxis Anita · Podologie in der Altstadt Luzern</title>
-<meta name="description" content="Medizinische Podologie, SPA-Behandlungen und Diabetes-Pflege in der Altstadt Luzern. Seit 2000 an der Kasimir-Pfyffer-Strasse. Termin: +41 41 240 84 84." />
+<meta name="description" content="Medizinische Podologie, SPA-Behandlungen und Betreuung bei Diabetes in der Altstadt Luzern. Seit 2000 an der Kasimir-Pfyffer-Strasse. Termin: +41 41 240 84 84." />
 <meta name="author" content="Anita Hofer-Küng" />
 <link rel="canonical" href="https://www.fusspraxis-anita.ch/" />
+<meta name="robots" content="index,follow" />
 
 <!-- Favicons -->
 <link rel="icon" href="favicon.ico" sizes="any" />
@@ -713,6 +714,75 @@
     .team-grid{grid-template-columns:1fr;gap:50px;max-width:480px;margin:0 auto}
   }
 
+  /* ---------- BRANDS ---------- */
+  .brands{
+    padding:80px 0;
+    text-align:center;
+    position:relative;
+  }
+  .brands-eyebrow{
+    display:inline-flex;align-items:center;gap:14px;
+    font-size:12px;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--brass);
+    margin-bottom:14px;
+  }
+  .brands-eyebrow::before,
+  .brands-eyebrow::after{
+    content:"";width:32px;height:1px;background:var(--brass);
+  }
+  .brands-title{
+    font-family:var(--f-display);
+    font-size:clamp(24px, 3vw, 32px);
+    font-weight:300;
+    color:var(--forest-deep);
+    margin-bottom:48px;
+    line-height:1.2;
+  }
+  .brands-grid{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:40px;
+    align-items:center;
+    justify-items:center;
+    max-width:900px;
+    margin:0 auto;
+  }
+  .brand-logo{
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    filter:grayscale(100%);
+    opacity:.55;
+    transition:filter .3s ease, opacity .3s ease;
+  }
+  .brand-logo:hover{
+    filter:grayscale(0%);
+    opacity:1;
+  }
+  .brand-logo img{
+    max-height:100%;
+    max-width:140px;
+    width:auto;
+    display:block;
+  }
+  /* Text-Platzhalter, bis echte Logos da sind */
+  .brand-placeholder{
+    font-family:var(--f-display);
+    font-style:italic;
+    font-size:22px;
+    color:var(--forest-deep);
+    letter-spacing:.02em;
+    padding:8px 16px;
+    border:1px dashed var(--line);
+    background:var(--cream);
+  }
+  @media (max-width:760px){
+    .brands{padding:60px 0}
+    .brands-grid{grid-template-columns:repeat(2, 1fr);gap:30px}
+    .brands-title{margin-bottom:36px}
+  }
+
   /* ---------- PRACTICE ---------- */
   .practice{
     background:var(--paper);
@@ -1327,6 +1397,22 @@
           Im zweiten Ausbildungsjahr zur Podologin EFZ. Behandelt eigenständig, immer unter Aufsicht von Anita oder Barbara.
         </p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- Brands / Produkte -->
+<section class="brands reveal">
+  <div class="container">
+    <div class="brands-eyebrow">Produkte</div>
+    <h2 class="brands-title">Produkte, mit denen wir arbeiten</h2>
+
+    <div class="brands-grid">
+      <!-- Wenn Logos vorhanden: <img src="bilder/logo-mavala.svg" alt="Mavala"> statt Text-Platzhalter -->
+      <div class="brand-logo"><span class="brand-placeholder">MAVALA</span></div>
+      <div class="brand-logo"><span class="brand-placeholder">SatisFeet</span></div>
+      <div class="brand-logo"><span class="brand-placeholder">LCN</span></div>
+      <div class="brand-logo"><span class="brand-placeholder">GEHWOHL</span></div>
     </div>
   </div>
 </section>
