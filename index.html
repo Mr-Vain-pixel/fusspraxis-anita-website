@@ -742,12 +742,12 @@
     grid-template-columns:repeat(4, 1fr);
     gap:40px;
     align-items:center;
-    justify-items:center;
     max-width:900px;
     margin:0 auto;
   }
   .brand-logo{
     height:60px;
+    width:100%;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -759,14 +759,21 @@
   }
   .brand-logo img{
     max-height:100%;
-    max-width:160px;
+    max-width:100%;
     width:auto;
+    height:auto;
     display:block;
+    object-fit:contain;
   }
   @media (max-width:760px){
     .brands{padding:60px 0}
-    .brands-grid{grid-template-columns:repeat(2, 1fr);gap:30px}
+    .brands-grid{grid-template-columns:repeat(2, 1fr);gap:24px 20px}
     .brands-title{margin-bottom:36px}
+    .brand-logo{height:50px}
+  }
+  @media (max-width:400px){
+    .brands-grid{gap:20px 16px}
+    .brand-logo{height:44px}
   }
 
   /* ---------- PRACTICE ---------- */
